@@ -1,0 +1,11 @@
+edgartools
+sentence-transformers
+chromadb
+rank_bm25
+anthropic
+python-dotenv
+pandas
+gradio
+pytest
+jupyter
+ipykernel
