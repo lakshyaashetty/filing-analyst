@@ -1,0 +1,73 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,True,CORRECT,"Wayfair had approximately 12,800 employees as of December 31, 2025, of whom approximately 11,800 were full-time equivalents [5]."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,False,WRONG,"The filings provided don't answer this.
+
+They don't state Wayfair's total employee count for either year. They do describe workforce reductions. In January 2024, Wayfair announced a workforce realignment that involved approximately 1,650 employees [3]. In January 2025, it announced the Germany Restructuring, which would reduce the workforce by approximately 730 employees, though about half of those positions were expected to relocate to other corporate offices [3][4]. The 2025 results also include $20 million of charges related to a March 2025 workforce reduction, but no headcount is given for that reduction [2]. These figures are planned or announced reductions, not a reported change in total employees."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,The filings provided don't answer this.
+4,fact,How many employees did Alphabet have at the end of 2025?,True,CORRECT,"Alphabet had 190,820 employees as of December 31, 2025 [1]."
+5,fact,How many employees did Alphabet have at the end of 2024?,True,CORRECT,"Alphabet had **183,323 employees** as of December 31, 2024 [2]."
+6,compare,How did Alphabet's employee count change from 2024 to 2025?,True,CORRECT,"Alphabet's employee count rose by 7,497, from 183,323 to 190,820, an increase of about 4.1%.
+
+- As of December 31, 2024, Alphabet had 183,323 employees [2][3].
+- As of December 31, 2025, Alphabet had 190,820 employees [1].
+
+The 4.1% figure is my calculation from these two numbers."
+7,fact,How many new stores did Macy's open in 2025?,False,CORRECT,"Macy's opened **12 stores** in fiscal 2025, the 52 weeks ended January 31, 2026 [3]. This figure covers all branded store locations (Macy's, Bloomingdale's, and Bluemercury), since the store count table is company-wide [3]."
+8,compare,How did Macy's capital expenditures change from 2024 to 2025?,True,CORRECT,"Macy's capital expenditures fell by $142 million, or about 16%, from 2024 to 2025. The company spent $882 million in 2024 [5] and $740 million in 2025 [1].
+
+Both years were mainly driven by digital and technology investments and omni-channel capabilities [1][5]. The company also opened fewer new stores in 2025 (12) than in 2024 (32) [1][5]."
+9,fact,In how many U.S. states does Macy's have stores?,True,CORRECT,"According to the 2025 filings, Macy's has stores in **43 states**, plus the District of Columbia, Puerto Rico and Guam. This is stated as of February 1, 2025 [2][4].
+
+The 2026 filing excerpts provided don't give a state count, so this is the most recent figure available in the sources [1][3]."
+10,explain,How does BlackRock say its use of AI affects its operational risk?,True,CORRECT,"BlackRock says its AI use creates operational risk in several ways:
+
+- **Errors and flawed outputs:** The company says the datasets used to develop and test AI models, the content AI generates, or how AI is applied ""may be found to be insufficient, biased or harmful, or lead to adverse business decisions or operating errors."" It also notes that generative AI ""may create content that appears correct but is factually inaccurate or flawed"" [1][4].
+
+- **Cybersecurity exposure:** BlackRock says that its ""developments in... process automation and artificial intelligence"" heighten operational risks, because ""certain aspects of the security of such technologies may be complex, unpredictable or beyond BlackRock's control"" [2]. The 2026 filing adds that ""the volume and reliance on data and algorithms may make AI, and BlackRock, more susceptible to cybersecurity threats, including the compromise of underlying models, training data or other IP"" [4].
+
+- **Threat actors using AI:** BlackRock states that ""advances in technology, including generative AI, and use of such technology by malicious actors heightens these risks"" [3].
+
+- **Control and compliance costs:** Using these technologies ""require[s] additional investment in operational controls and procedures,"" as well as safeguards for data leakage, fraud prevention, and regulatory compliance [1][4].
+
+- **Broader legal and regulatory consequences:** The company says AI introduction ""may result in new or enhanced governmental or regulatory scrutiny, IP or other litigation, data protection, confidentiality or information security risks, social or ethical concerns, competitive harm or other complications"" [1][4]. It warns that failing to integrate AI, comply with AI regulations, or manage related risks ""could harm BlackRock's growth and reputation,"" expose it to ""legal and regulatory liabilities and additional costs, including regulatory fines or sanctions,"" and cause its AUM, revenue and earnings to decline [5].
+
+The filings describe these as risks and do not quantify the operational losses BlackRock has experienced from AI."
+11,explain,What 'mega forces' does BlackRock say are transforming economies in its 2026 outlook?,True,CORRECT,"According to BlackRock's 2026 outlook, the mega forces transforming economies and their long-term growth trajectories are:
+
+- **Artificial intelligence (""AI"")**
+- **Financial technology innovation**
+- **An ongoing evolution in debt financing** [4]
+
+BlackRock says capital markets will play a key role in these transformations [4]. The 2025 filing named only AI and the evolution in debt financing [1][5], so financial technology innovation is new in the 2026 outlook."
+12,explain,What drives Invesco's revenues?,False,PARTIAL,"Invesco's revenues are driven mainly by its assets under management (AUM), the fees it earns on that AUM, and the mix of products it sells. The sources don't provide a complete breakdown of total revenue by source, so this answer covers only the drivers they describe.
+
+- **Assets under management and market performance:** Invesco managed approximately $2.2 trillion as of December 31, 2025, and the company cites strong long-term investment performance and positive market performance as key drivers of success [4]. Because fees are tied to AUM, growth in AUM supports revenue. For example, IGW's revenue rose in 2025 ""primarily due to higher average AUM,"" partly offset by a shift toward lower-yield products [1].
+
+- **Product mix and fee yield:** A shift in AUM toward lower-yield products reduced IGW revenues in 2024 [2] and partly offset its 2025 increase [1]. Investors are also moving toward passively managed strategies, which the sources expect to continue [3].
+
+- **Regulatory and pricing pressure:** Regulatory-mandated fee reductions in China, introduced in August 2023, also drove IGW's revenue decline in 2024 [2]. The company says competitive pricing is a key success factor [4].
+
+- **Distribution channels and investment capabilities:** As of year-end 2025, AUM was $1,515.7 billion in retail and $654.2 billion in institutional channels [5]. By capability, ETFs and Index held $630.2 billion, Fundamental Fixed Income $311.5 billion, Fundamental Equities $298.4 billion, and QQQ $407.2 billion [5].
+
+- **Other revenue streams:** Other revenues increased in the period described in the filing, primarily from higher front-end fees ($10.0 million) and real estate transaction fees ($4.1 million), partly offset by lower other transaction fees ($4.6 million) [2].
+
+- **Consolidated investment products (CIP):** Management and performance fees earned from CIP were $44.5 million for the year ended December 31, 2025 [1]. The company adds these back when calculating Net revenues, because these fees are eliminated on consolidation [1]. The source text for this figure is cut off, so the exact year-end wording is incomplete."
+13,fact,How much notice is generally required to terminate Invesco's investment management agreements?,True,CORRECT,"Invesco's investment management agreements are generally terminable upon 30 or fewer days' notice [1][2][3].
+
+Some related terms also differ:
+- Agreements with U.S. registered funds may be terminated with notice, or in the event of an ""assignment"" as defined under the Investment Company Act of 1940, and must be renewed and approved annually by the disinterested members of each fund's Board [1][2].
+- The Boards of certain other funds generally may terminate their investment management agreements upon written notice for any reason [1][2].
+- Open-end registered fund and unit trust investors may generally withdraw funds at any time without prior notice [1][2][3].
+- Institutional clients may terminate their relationships or reduce AUM generally on short notice [1][2][3]."
+14,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?",True,CORRECT,"IBM adopted the name International Business Machines Corporation in 1924, when C-T-R changed its name to that [1][3]. Before that, the company was called the Computing-Tabulating-Recording Co. (C-T-R), which was incorporated in New York on June 16, 1911 as a consolidation of the Computing Scale Co. of America, the Tabulating Machine Co., and The International Time Recording Co. of New York [3]."
+15,explain,What does IBM say its hybrid cloud and AI offerings help clients do?,True,CORRECT,"According to IBM, its hybrid cloud platform and AI technology help clients:
+
+- **Create sustained value** by leveraging hybrid cloud and artificial intelligence (AI) [1][2].
+- **Support digital transformations** [1][2].
+- **Reimagine critical workflows at scale** [1][2].
+- **Modernize applications** to increase agility, drive innovation, and create operational efficiencies [1][2].
+- **Realize digital and AI transformations** across the applications, data, and environments in which they operate, according to its software offerings description [3][4]."
+16,fact,What was IBM's total revenue in 2024?,False,WRONG,The filings provided don't answer this.
+17,unanswerable,What is the Goldman Sachs CEO's favorite restaurant?,,CORRECT,"The filings provided don't answer this.
+
+The sources identify David Solomon as Chairman of the Board and Chief Executive Officer [3], but they say nothing about his personal preferences, including restaurants."

@@ -1,0 +1,10 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,True,CORRECT,"Wayfair had approximately 12,800 employees as of December 31, 2025, of whom approximately 11,800 were full-time equivalents [5]."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,False,WRONG,"The filings provided don't answer this.
+
+The sources don't report Wayfair's total employee count for 2024 or 2025. They do describe specific workforce reductions:
+
+- In January 2024, Wayfair announced a workforce realignment that included a reduction of approximately 1,650 employees [3].
+- On January 10, 2025, Wayfair announced its exit from the German market, including a reduction of approximately 730 employees, though about half of those positions were expected to relocate to other corporate offices [3][4].
+- The 2025 results mention a March 2025 workforce reduction, but no headcount for it is given [2]."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,The filings provided don't answer this.

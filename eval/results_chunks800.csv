@@ -1,0 +1,55 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,False,WRONG,"The filings provided don't answer this. None of the sources gives Wayfair's headcount as of December 31, 2025.
+
+The closest figure is from the 10-K filed 2025-02-20, which reports approximately 13,500 employees, of whom approximately 12,100 were full-time equivalents, as of December 31, 2024 [1]. That number includes about 730 employees affected by the Germany Restructuring [1][3]. It is a year-earlier figure, so it doesn't answer the question about the end of 2025."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,False,WRONG,"The filings provided don't answer this. The 2025 10-K excerpt doesn't state Wayfair's total employee count at December 31, 2025.
+
+The only headcount figure is from the 2024 10-K: about 13,500 employees, of whom about 12,100 were full-time equivalents, as of December 31, 2024 [3]. That count includes the approximately 730 employees affected by the Germany Restructuring, although about half of those positions are expected to relocate to other corporate offices [3].
+
+The 2025 filing describes workforce reductions but doesn't give a net change in headcount. It mentions a March 2025 reduction of about 340 Technology team members [4] and the Germany workforce reduction of about 730 employees [4]. Those reductions alone don't establish how the total changed, because the filings don't report hires or the relocation outcome."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,The filings provided don't answer this.
+4,fact,How many employees did Alphabet have at the end of 2025?,False,WRONG,"The filings provided don't answer this.
+
+The sources are excerpts from Alphabet's 10-K for fiscal year 2024, filed February 5, 2025 [1][2][4]. They include share counts, financial statements, and exhibit lists, but no employee headcount. Because the filing covers the year ended December 31, 2024, it also wouldn't report year-end 2025 figures."
+5,fact,How many employees did Alphabet have at the end of 2024?,False,WRONG,The filings provided don't answer this.
+6,compare,How did Alphabet's employee count change from 2024 to 2025?,False,PARTIAL,The filings provided don't answer this.
+7,fact,How many new stores did Macy's open in 2025?,False,WRONG,"The filings provided don't answer this for 2025 as a calendar or fiscal year. The closest figure is for the 52 weeks ended February 1, 2025 (fiscal 2024), when Macy's opened 32 stores, and its store count went from 718 to 680 after 70 closures [5]."
+8,compare,How did Macy's capital expenditures change from 2024 to 2025?,False,WRONG,The filings provided don't answer this.
+9,fact,In how many U.S. states does Macy's have stores?,False,WRONG,"The filings provided don't answer this.
+
+The sources give a total store count of 680 as of February 1, 2025, broken down by brand (Macy's, Bloomingdale's, Bluemercury) and by ownership status [3]. They don't break the stores down by state. The logistics table lists facilities in several states, such as Missouri, Connecticut, and Illinois, but those are distribution sites, not store locations [3]."
+10,explain,How does BlackRock say its use of AI affects its operational risk?,True,CORRECT,"BlackRock's filings say AI adds to its operational and cybersecurity risk. The main statements come from the risk factor sections in [1], [2], and [3].
+
+- **Heightened operational and security risk:** BlackRock says that ""developments in BlackRock's use of process automation and artificial intelligence ('AI')"" heighten operational risks, because ""certain aspects of the security of such technologies may be complex, unpredictable or beyond BlackRock's control"" [3].
+- **Cyber exposure:** The 2026 filing adds that ""the volume and reliance on data and algorithms may make AI, and BlackRock, more susceptible to cybersecurity threats, including the compromise of underlying models, training data or other IP"" [2]. The cybersecurity section also says that ""advances in technology, including generative AI, and use of such technology by malicious actors heightens these risks"" [3].
+- **Output errors:** BlackRock warns that datasets used to develop and test AI models, AI-generated content, or the application of AI systems ""may be found to be insufficient, biased or harmful, or lead to adverse business decisions or operating errors."" It also notes that generative AI ""may create content that appears correct but is factually inaccurate or flawed"" [1][2].
+- **Control costs:** BlackRock states that its AI efforts ""require additional investment in operational controls and procedures, development and implementation of appropriate protections and safeguards for handling the use of data with AI, including with respect to data leakage, fraud prevention and regulatory compliance costs"" [1][2].
+- **Consequences of failure:** BlackRock says that a failure to manage AI-related risks could harm its growth and reputation and ""expose the Company to legal and regulatory liabilities and additional costs, including regulatory fines or sanctions, which may cause its AUM, revenue and earnings to decline"" [1][2].
+
+The human error sections in [4] and [5] discuss operational errors generally but do not mention AI."
+11,explain,What 'mega forces' does BlackRock say are transforming economies in its 2026 outlook?,False,PARTIAL,"The filings provided identify two ""mega forces"" transforming economies: artificial intelligence (""AI"") and an ongoing evolution in debt financing. Capital markets will play a key role in these transformations [1].
+
+This statement comes from the 10-K filed 2025-02-25, which covers fiscal 2024, not a 2026 outlook. It appears in the section discussing BlackRock's expectations for 2025 [1]. The 10-K filed 2026-02-25 [2][3][4][5] doesn't contain this language, so I can't attribute these mega forces to a 2026 outlook."
+12,explain,What drives Invesco's revenues?,False,PARTIAL,"Invesco's revenues are driven mainly by its assets under management (AUM), which depend on investment performance, market performance, client service, distribution relationships, and pricing.
+
+- **Key success drivers:** Invesco lists strong long-term investment performance, positive market performance, high-quality client service, effective distribution relationships, and competitive pricing as its key drivers. It seeks to generate positive net flows and increase AUM and revenues through these areas [1][2].
+- **AUM levels:** Invesco managed approximately $2.2 trillion in AUM at December 31, 2025 [1], up from approximately $1.85 trillion at December 31, 2024 [2].
+- **Channel mix:** Retail AUM was $1,515.7 billion and institutional AUM was $654.2 billion at December 31, 2025 [3]. Retail products are primarily distributed through third-party financial intermediaries, including wirehouses, direct wealth platforms, broker-dealers, insurance companies, banks, and financial planners [3].
+- **Net revenue definition:** Invesco calculates Net revenues by reducing Operating revenues for fees passed through to external parties that distribute its managed funds. Investment management fees are adjusted for renewal commissions and certain administrative fees, service and distribution fees are adjusted for distribution fees passed through to broker-dealers, and other revenues are adjusted for transaction fees passed through to third parties [4]. Management also tracks Net revenue yield on AUM, which is Net revenues divided by Average AUM [4].
+
+The filings provided don't include a full breakdown of revenue by fee type or by product, so the relative size of each revenue source isn't available from these sources."
+13,fact,How much notice is generally required to terminate Invesco's investment management agreements?,True,CORRECT,"Invesco's investment management agreements are generally terminable upon 30 or fewer days' notice [1][2].
+
+Some agreements differ. Agreements with U.S. registered funds may be terminated with notice or in the event of an ""assignment,"" and must be renewed and approved annually by the disinterested members of each fund's board, as required by law. The boards of certain other funds may generally terminate these agreements upon written notice for any reason [2]."
+14,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?",False,WRONG,"The filings provided don't answer this.
+
+The sources show only that the registrant's exact name is International Business Machines Corporation [3][4]. They don't cover when the name was adopted or any earlier name."
+15,explain,What does IBM say its hybrid cloud and AI offerings help clients do?,False,PARTIAL,"IBM says its hybrid cloud and AI platforms ""allow clients to realize their digital and AI transformations across the applications, data, and environments in which they operate"" [1][2]. This statement appears in the Software segment's competitive summary.
+
+More broadly, IBM says its expertise lets it ""take different technologies and bring them together to solve the most pressing business issues of our clients"" [1][2]."
+16,fact,What was IBM's total revenue in 2024?,False,WRONG,"The filings provided don't answer this.
+
+The excerpts don't include IBM's 2024 total revenue. The 2024 10-K says segment information and revenue by classes of similar products or services appear on pages 69 to 74 of the 2024 Annual Report to Stockholders, which is incorporated by reference [4]. That annual report isn't among the sources provided."
+17,unanswerable,What is the Goldman Sachs CEO's favorite restaurant?,,CORRECT,"The filings provided don't answer this.
+
+Source [2] identifies David Solomon as Chairman and Chief Executive Officer, but none of the sources mention his personal preferences."

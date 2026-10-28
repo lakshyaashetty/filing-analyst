@@ -1,0 +1,63 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,True,CORRECT,"Wayfair had approximately 12,800 employees as of December 31, 2025, of whom approximately 11,800 were full-time equivalents [4]."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,False,WRONG,"The filings provided don't answer this. They don't report Wayfair's total employee count for 2024 or 2025.
+
+They do describe workforce reductions:
+
+- In January 2025, Wayfair announced its exit from the German market (the ""Germany Restructuring""), including a workforce reduction of approximately 730 employees, though it expects about half of those positions to relocate to other corporate offices [4][5].
+- During 2025, Wayfair incurred $20 million in charges related to a March 2025 workforce reduction [2][3].
+- During 2024, Wayfair incurred $79 million of charges, primarily one-time employee severance and benefit costs, associated with a January 2024 workforce reduction [2].
+
+These figures describe reductions and related costs, not net headcount change."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,The filings provided don't answer this.
+4,fact,How many employees did Alphabet have at the end of 2025?,True,CORRECT,"Alphabet had 190,820 employees as of December 31, 2025 [1]."
+5,fact,How many employees did Alphabet have at the end of 2024?,True,CORRECT,"Alphabet had **183,323 employees** as of December 31, 2024 [1][2]."
+6,compare,How did Alphabet's employee count change from 2024 to 2025?,False,PARTIAL,"The sources don't show how the employee count changed. Source [5] gives the 2025 figure: as of December 31, 2025, Alphabet had 190,820 employees [5]. None of the provided sources state the employee count for 2024, so I can't calculate a change. The filings provided don't answer this."
+7,fact,How many new stores did Macy's open in 2025?,False,WRONG,"The filings provided don't answer this.
+
+The sources don't give a count of new stores opened in fiscal 2025. They do describe related store activity:
+
+- The ""Reimagine 125"" effort overlaid successful initiatives from the First 50 locations onto an additional 75 existing stores, for a total of 125 reimagined Macy's locations [1]. These are existing stores being reimagined, not new openings.
+- Macy's has opened new off-mall smaller formats (Macy's small format, Bloomie's, and Bloomingdale's the Outlet) in selected markets, but the sources don't say how many [3].
+- In fiscal 2024, the Company closed 64 underproductive locations [4]. The sources don't report a fiscal 2025 closure count."
+8,compare,How did Macy's capital expenditures change from 2024 to 2025?,True,CORRECT,"Macy's capital expenditures fell by $142 million, or about 16%, from 2024 to 2025. The company spent $882 million in 2024 [2] and $740 million in 2025 [1]. In both years the spending was mainly driven by digital and technology investments and omni-channel capabilities [1][2]."
+9,fact,In how many U.S. states does Macy's have stores?,True,CORRECT,"Macy's operates stores in **43 states**, plus the District of Columbia, Puerto Rico and Guam [1][2]. The fiscal 2025 filing repeats this count [5]."
+10,explain,How does BlackRock say its use of AI affects its operational risk?,True,CORRECT,"BlackRock says its use of AI creates operational risks in several ways, and it links those risks to its controls, cybersecurity, and business results.
+
+- **Heightened operational risk:** BlackRock states that its ""developments in... process automation and artificial intelligence"" heighten operational risks, because ""certain aspects of the security of such technologies may be complex, unpredictable or beyond BlackRock's control"" [3].
+
+- **Errors and flawed outputs:** AI ""may be found to be insufficient, biased or harmful, or lead to adverse business decisions or operating errors."" Generative AI ""may create content that appears correct but is factually inaccurate or flawed"" [1][2].
+
+- **Cybersecurity exposure:** In the 2026 filing, BlackRock says ""the volume and reliance on data and algorithms may make AI, and BlackRock, more susceptible to cybersecurity threats, including the compromise of underlying models, training data or other IP"" [2].
+
+- **Required controls and costs:** Using AI ""require[s] additional investment in operational controls and procedures, development and implementation of appropriate protections and safeguards for handling the use of data with AI, including with respect to data leakage, fraud prevention and regulatory compliance costs"" [1][2][4].
+
+- **Business and financial consequences:** BlackRock says that failing to manage AI-related risks ""could harm BlackRock's growth and reputation, adversely impact product offerings, client interactions or business initiatives, and expose the Company to legal and regulatory liabilities and additional costs, including regulatory fines or sanctions, which may cause its AUM, revenue and earnings to decline"" [4].
+
+- **Aladdin context:** Related platform expansion, which ""frequently occur[s] on accelerated timeframes,"" may expose BlackRock ""to additional cyber- and information security risks, as well as increased execution, operational and data management risks"" [5].
+
+The sources are excerpts and cut off mid-sentence, so they don't give BlackRock's full discussion of mitigation measures."
+11,explain,What 'mega forces' does BlackRock say are transforming economies in its 2026 outlook?,True,CORRECT,"According to BlackRock's 2026 outlook, ""mega forces"" transforming economies and their long-term growth trajectories are artificial intelligence (""AI""), financial technology innovation, and an ongoing evolution in debt financing [2]."
+12,explain,What drives Invesco's revenues?,False,PARTIAL,"Invesco's revenues are fee-based and move with its assets under management (AUM). The filings support this in several ways, though they don't give a complete breakdown of revenue by source.
+
+**Revenue categories:** Operating revenues were $6,377.1 million in 2025, $6,067.0 million in 2024, and $5,716.4 million in 2023 [4][5]. The company's revenue adjustments show that operating revenues include investment management fees, service and distribution fees, and other revenues [4]. Investment management fees are adjusted for renewal commissions and certain administrative fees, service and distribution fees for distribution fees passed through to broker-dealers, and other revenues for transaction fees passed through to third parties [3].
+
+**AUM as a driver:** Average AUM was $2,000.1 billion in 2025, up from $1,712.2 billion in 2024 and $1,500.6 billion in 2023 [5]. Management evaluates Net revenue yield, defined as Net revenues divided by Average AUM, as an indicator of the Net revenues received for each dollar managed [3]. Net revenues were $4,658.5 million in 2025, $4,400.5 million in 2024, and $4,310.7 million in 2023 [4].
+
+**Example from Invesco Great Wall (IGW):** IGW's Net revenues rose to $364.0 million in 2025 from $318.1 million in 2024, with average AUM of $109.0 billion versus $88.6 billion. The filing attributes the increase primarily to higher average AUM, partly offset by a shift toward lower-yield products [2]. In 2024, IGW's revenues had declined, driven by the shift toward lower-yield products and regulatory mandated fee reductions in China in August 2023 [1].
+
+**Other revenue items:** In 2024, Other revenues increased mainly due to higher front-end fees ($10.0 million) and real estate transaction fees ($4.1 million), partly offset by lower other transaction fees ($4.6 million) [1]. Management and performance fees earned from consolidated investment products (CIP) are eliminated on consolidation, and management adds them back to Net revenues. CIP fees were $44.5 million in 2025 [2][4]."
+13,fact,How much notice is generally required to terminate Invesco's investment management agreements?,True,CORRECT,"Invesco's investment management agreements are generally terminable upon 30 or fewer days' notice [1][2][3].
+
+Other arrangements differ. Agreements with U.S. registered funds may be terminated with notice or upon an ""assignment"" as defined under the Investment Company Act of 1940, and must be renewed and approved annually by the disinterested board members [1][2]. Open-end registered fund and unit trust investors may generally withdraw at any time without prior notice, and institutional clients may terminate or reduce their AUM generally on short notice [1][2][3]."
+14,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?",True,CORRECT,"IBM adopted the name International Business Machines Corporation in 1924, when C-T-R changed its name to that [1][3]. Before that, the company was called the Computing-Tabulating-Recording Co. (C-T-R). It was incorporated in New York on June 16, 1911, as a consolidation of the Computing Scale Co. of America, the Tabulating Machine Co., and The International Time Recording Co. of New York [1][3]."
+15,explain,What does IBM say its hybrid cloud and AI offerings help clients do?,True,CORRECT,"According to IBM, its hybrid cloud and AI offerings help clients:
+
+- **Create sustained value** by leveraging hybrid cloud and artificial intelligence (AI) [1][3].
+- **Support digital transformations** and **reimagine critical workflows, at scale** [1][3].
+- **Modernize applications** to **increase agility, drive innovation, and create operational efficiencies** [1][3].
+- **Realize digital and AI transformations** across the applications, data, and environments in which they operate, as described for the Software segment [2][4][5]."
+16,fact,What was IBM's total revenue in 2024?,False,WRONG,"The filings provided don't answer this.
+
+The excerpts show that IBM's 2024 Management's Discussion and Analysis and financial statements are incorporated by reference from the 2024 Annual Report to Stockholders [1], but that report isn't included, and none of the excerpts state total revenue [1][2][4][5]."
+17,unanswerable,What is the Goldman Sachs CEO's favorite restaurant?,,CORRECT,The filings provided don't answer this.
