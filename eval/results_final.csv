@@ -1,0 +1,110 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,True,CORRECT,"Wayfair had approximately 12,800 employees as of December 31, 2025, of whom approximately 11,800 were full-time equivalents [S7]. The 10-K filed in February 2026 gives this figure; the 2024 comparison was about 13,500 employees [S6]."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,True,CORRECT,"Wayfair's headcount fell in 2025. The 10-K for fiscal 2024 reports about 13,500 employees (about 12,100 full-time equivalents) as of December 31, 2024 [S2]. The 10-K for fiscal 2025 reports about 12,800 employees (about 11,800 full-time equivalents) as of December 31, 2025 [S5].
+
+That is a decrease of about 700 employees (roughly 5.2%) in total headcount, and about 300 full-time equivalents (roughly 2.5%).
+
+The 2024 figure includes roughly 730 employees affected by the Germany exit announced in January 2025, about half of whom were expected to relocate to other corporate offices [S2][S4]."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,"The filings provided don't answer this. Macy's 10-K filings don't mention Mars or any off-Earth store plans.
+
+What the filings do describe is a domestic store strategy. Macy's is executing its ""Bold New Chapter"" strategy, which includes closing underproductive Macy's stores [S3], reimagining 125 Macy's locations [S10], and opening smaller off-mall formats such as Macy's small format, Bloomie's and Bloomingdale's The Outlet in selected markets [S1]."
+4,fact,How many employees did Alphabet have at the end of 2025?,True,CORRECT,"Alphabet had 190,820 employees as of December 31, 2025 [S1]."
+5,fact,How many employees did Alphabet have at the end of 2024?,True,CORRECT,"Alphabet had 183,323 employees as of December 31, 2024 [S5].
+
+For reference, the FY2025 10-K reports 190,820 employees as of December 31, 2025 [S1]."
+6,compare,How did Alphabet's employee count change from 2024 to 2025?,False,CORRECT,"Alphabet's headcount rose by about 7,500 employees, or roughly 4.1%, during 2025.
+
+- **December 31, 2024:** 183,323 employees [S3]
+- **December 31, 2025:** 190,820 employees [S2]"
+7,fact,How many new stores did Macy's open in 2025?,False,CORRECT,"Macy's opened **12 new stores** in fiscal 2025 (the 52 weeks ended January 31, 2026). [S4]
+
+Store count activity for that year was 680 at the start, +12 opened, −27 closed or consolidated/relocated, for 665 at year-end. [S4]"
+8,compare,How did Macy's capital expenditures change from 2024 to 2025?,True,CORRECT,"Macy's capital expenditures fell about 16% in 2025, from $882 million in 2024 to $740 million [S1][S5]. That is a $142 million decrease.
+
+Both years' spending was mainly driven by digital and technology investments and omni-channel capabilities. Macy's expects about $800 million of capex in 2026 [S1].
+
+The XBRL data shows different figures: $518 million for 2024 and $373 million for 2025 [SEC data]. That series likely uses a narrower cash-flow line item than the capex total the company reports in its MD&A, so I've used the MD&A figures."
+9,fact,In how many U.S. states does Macy's have stores?,True,CORRECT,"Macy's has stores in **43 states**, plus the District of Columbia, Puerto Rico and Guam, as of February 1, 2025 [S1][S4].
+
+The most recent 10-K (fiscal 2025, filed March 2026) reports 665 stores as of January 31, 2026 [S2][S3], but the passages I retrieved don't state a state count for that date. So 43 is the latest figure I could confirm."
+10,explain,How does BlackRock say its use of AI affects its operational risk?,True,CORRECT,"BlackRock says its use of AI, along with process automation, adds to its operational risk, and it ties AI failures to operational errors and losses.
+
+- **Heightened operational and security risk:** BlackRock says that ""developments in its use of process automation and artificial intelligence ('AI')... heightens these and other operational risks, as certain aspects of the security of such technologies may be complex, unpredictable or beyond BlackRock's control"" [S2, 2025 10-K].
+- **Cyber threats:** It notes that generative AI, and its use by malicious actors, heightens cyber risks that could disrupt operations [S1, 2025 10-K].
+- **Operating errors:** AI-based datasets, content, or applications ""may be found to be insufficient, biased or harmful, or lead to adverse business decisions or operating errors."" Generative AI ""may create content that appears correct but is factually inaccurate or flawed"" [S3, 2025 10-K].
+- **Added costs:** AI use ""requires additional investment in operational controls and procedures"" and safeguards for data leakage, fraud prevention, and regulatory compliance [S3, 2025 10-K].
+- **Consequences:** Failing to integrate AI well or comply with AI rules ""could result in operational failures, regulatory fines, sanctions and client dissatisfaction and attrition,"" which could cause AUM, revenue, and earnings to decline [S4, S5, 2026 10-K]."
+11,explain,What 'mega forces' does BlackRock say are transforming economies in its 2026 outlook?,True,CORRECT,"BlackRock's 2026 outlook (in its FY2025 10-K, filed 2026-02-25) names three ""mega forces"" that are transforming economies and their long-term growth trajectories: artificial intelligence (AI), financial technology innovation, and an ongoing evolution in debt financing [S8]. The filing says capital markets will play a key role in these transformations [S8].
+
+The 2025 10-K (filed 2025-02-25) used a similar framing but listed only AI and debt financing evolution [S2]."
+12,explain,What drives Invesco's revenues?,False,CORRECT,"Invesco's revenue is driven mainly by assets under management (AUM), which generate fee income in four main ways:
+
+- **Investment management fees:** Based on the value of AUM. The filings say these ""are comprised of fees based on the value of AUM"" [S2]. Average AUM times the fee yield sets the revenue, so ""a decline in the average AUM for the year would result in a corresponding decline in revenue"" if the yield is unchanged [S2].
+- **Service and distribution fees:** Tied to fund share classes and to the fund-related costs passed through to broker-dealers [S3].
+- **Performance fees:** Including carried interest and fees on partnership investments and separate accounts. They are recognized only when performance hurdles are met [S1][S4].
+- **Other revenues:** Mainly transaction commissions on new fund investments, plus fees on completed real estate and private equity transactions [S1][S4].
+
+Market levels, investor flows, and product mix all feed into AUM. Market declines, client withdrawals, rebalancing into assets Invesco does not manage, and shifts toward lower-fee products can all reduce revenue [S2]. Performance also matters because weaker returns reduce performance fees [S2].
+
+Note: the SEC revenue data I could retrieve only ran through 2018 (about $5.31 billion that year), so I can't speak to current-year figures from it."
+13,fact,How much notice is generally required to terminate Invesco's investment management agreements?,True,CORRECT,"Invesco's 10-K filings say its investment management agreements are generally terminable upon 30 or fewer days' notice [S1][S3]. The 2026 filing uses the same language, and adds that retail investors can generally withdraw at any time and institutional clients can reduce AUM or terminate on very short notice [S2].
+
+Some agreements differ. U.S. registered fund agreements may be terminated with notice or upon an ""assignment"" as defined under the Investment Company Act, and must be renewed and approved annually by the disinterested directors or trustees. Boards of certain other funds may terminate upon written notice for any reason [S3]."
+14,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?",True,CORRECT,"IBM adopted the name International Business Machines Corporation in 1924. Before that, the company was called the Computing-Tabulating-Recording Co. (C-T-R), which was incorporated in New York on June 16, 1911 as a consolidation of the Computing Scale Co. of America, the Tabulating Machine Co. and The International Time Recording Co. of New York. [S1][S2]"
+15,explain,What does IBM say its hybrid cloud and AI offerings help clients do?,True,CORRECT,"IBM says its hybrid cloud and AI offerings help clients:
+
+- **Create sustained value** by leveraging hybrid cloud and AI [S1][S2].
+- **Support digital transformations** through its hybrid cloud platform and AI technology [S1][S2].
+- **Reimagine critical workflows at scale** [S1][S2].
+- **Modernize applications** to increase agility, drive innovation, and create operational efficiencies [S1][S2].
+- **Realize digital and AI transformations** across the applications, data, and environments they operate in, per its software segment description [S3][S4]."
+16,fact,What was IBM's total revenue in 2024?,False,CORRECT,"IBM's total revenue for 2024 was $62.753 billion [SEC data: Revenues, CY2024]."
+17,unanswerable,What is the Goldman Sachs CEO's favorite restaurant?,,CORRECT,The filings don't answer this. The Goldman Sachs 10-K filings I searched cover the CEO's role and tenure (David Solomon has been CEO since October 2018 [S2]) but say nothing about his personal dining preferences or a favorite restaurant.
+18,fact,What are Morgan Stanley's business segments?,True,CORRECT,"Morgan Stanley reports three business segments:
+
+1. **Institutional Securities**: serves corporations, governments, financial institutions and ultra-high net worth clients through Investment Banking, Markets (Equity and Fixed Income), and Lending [S2][S4].
+2. **Wealth Management**: provides financial advisor-led brokerage, custody, advisory, self-directed brokerage, planning, securities-based and other lending, banking, and retirement plan services to individuals and small to medium-sized businesses [S1].
+3. **Investment Management**: offers investment strategies and products across geographies, asset classes, and public and private markets [S1].
+
+This is consistent across the 2024 and 2025 Form 10-Ks [S2][S3]."
+19,explain,What does Morgan Stanley say its competitive position depends on?,True,CORRECT,"Morgan Stanley says its competitive position depends on a number of factors: its reputation, client experience, the quality and consistency of its long-term investment performance, innovation, execution, relative pricing, and entering new or expanding businesses through acquisitions and other strategic initiatives. It also says sustaining or improving that position depends substantially on attracting and retaining highly qualified employees while managing compensation and other costs [S5]."
+20,fact,"As of December 2025, what was the average tenure of Goldman Sachs employees and of its Management Committee?",True,CORRECT,"As of December 2025, Goldman Sachs reported an average tenure of about 23 years for its Management Committee members and about 6 years for all employees [S2]. The 10-K filed in February 2026 is the source for both figures."
+21,explain,What paid leave and wellness benefits does Goldman Sachs offer its employees?,True,PARTIAL,"Goldman Sachs' most recent 10-K (FY2025) lists these paid leave and wellness benefits [S1]:
+
+**Paid leave**
+- A minimum of 20 weeks of paid parental leave.
+- Up to four weeks of paid family care leave, covering care of a family member with a serious health condition, military-related family care, fostering a child, death of an immediate family member, or miscarriage.
+- Managing directors may take time off without a fixed vacation entitlement.
+- A minimum annual expected vacation usage of 15 days for all employees.
+
+**Wellness**
+- A wellness framework aimed at health and fitness, resilience, and work-life balance.
+- Counseling, coaching, medical advisory, and personal wellness services.
+- A Mental Health First Aid program, which the firm describes as internationally recognized.
+
+The FY2024 10-K describes similar policies [S5], but also mentions an unpaid sabbatical for longer-tenured employees, which the FY2025 filing does not mention."
+22,explain,What categories does Goldman Sachs group its risk factors into?,False,PARTIAL,"Goldman Sachs groups its risk factors (FY2025 10-K, Item 1A) into these categories:
+
+1. **Market**: e.g., adverse effects of global financial market and economic conditions [S1]
+2. **Liquidity** (the excerpt shows this category's heading only partially, so its exact heading is inferred from the content, such as credit ratings and funding costs) [S8]
+3. **Credit**: e.g., counterparty defaults, concentration risk, derivative credit exposure [S8]
+4. **Operational**: e.g., system failures, cyber attacks, AI risks, ineffective risk management [S8]
+5. **Legal and Regulatory**: e.g., extensive regulation, conflicts of interest, governmental scrutiny [S14]
+6. **Competition**: e.g., client base composition, industry competitiveness, electronic trading [S14]
+
+The excerpts I retrieved may not show every category, since the list may continue past Competition. The FY2024 10-K used a similar structure, with categories including Market, Liquidity, Credit, Operational, Legal and Regulatory [S5][S8]."
+23,fact,How much additional collateral or termination payments could Goldman Sachs' counterparties call for if its credit ratings were downgraded?,True,CORRECT,"As of December 2025, Goldman Sachs' counterparties could have called for about **$224 million** of additional collateral or termination payments after a one-notch downgrade, and about **$1.80 billion** after a two-notch downgrade [S4]. The detailed note table shows the two-notch figure as $1,797 million [S2].
+
+For comparison, as of December 2024 the figures were $315 million (one-notch) and $1.20 billion (two-notch) [S1].
+
+These amounts relate to net derivative liabilities under bilateral agreements. The firm's collateral posted under those agreements was $36,201 million at December 2025, up from $20,262 million a year earlier [S2]."
+24,fact,"How many active customers did Wayfair have as of December 31, 2025?",False,CORRECT,"Wayfair reported **21 million active customers over the last twelve months** in its 10-K filed February 19, 2026 [S10]. The filing describes this as a trailing twelve-month figure, not a count as of December 31, 2025, so it may not be the exact point-in-time number you asked for. I didn't find a separate December 31, 2025 active-customer figure in the filings I searched."
+25,fact,How many orders did Wayfair deliver in 2025?,False,WRONG,"The filings provided don't answer this. I searched the Wayfair 10-K filings (filed 2025 and 2026) and found no total count of orders delivered for 2025. The 2026 filing reports 21 million active customers over the last twelve months [S15], but not an order count. The 2025 filing reports that 80.1% of 2024 orders came from repeat buyers [S12], which is also not a 2025 order figure."
+26,compare,How did Wayfair's U.S. and international net revenue change in 2025?,True,CORRECT,"In 2025, Wayfair's U.S. net revenue grew 5.8% and international net revenue grew 0.4%.
+
+- **U.S.:** $10,373M in 2024 to $10,973M in 2025, up about $600M [S9].
+- **International:** $1,478M in 2024 to $1,484M in 2025, up about $6M [S9]. On a constant-currency basis, international growth was 0.2% [S9]. The filing attributes the growth to its remaining international markets, partly offset by the exit from Germany [S9].
+
+Total net revenue rose 5.1%, from $11,851M to $12,457M [S9]."
+27,fact,What was IBM's net income in 2024?,False,CORRECT,"IBM's net income in 2024 was $6.023 billion [SEC data: NetIncomeLoss, CY2024]."
+28,unanswerable,What is Morgan Stanley's CEO's favorite restaurant?,,CORRECT,"The filings provided don't answer this. The 10-K filings identify Edward Pick as Morgan Stanley's CEO (since January 2024) [S4], but they contain no information about his restaurant preferences."
