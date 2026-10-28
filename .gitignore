@@ -5,3 +5,4 @@ data/chroma/
 .env
 .ipynb_checkpoints/
 .DS_Store
+deploy/
