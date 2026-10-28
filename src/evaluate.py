@@ -2,6 +2,7 @@ import sys
 
 import pandas as pd
 
+from src.agent import ask
 from src.rag import LLM, MODEL, answer
 
 JUDGE = """You grade answers to questions about company filings.
@@ -26,7 +27,7 @@ def run(name="baseline", collection="filings_300", k=5, mode="vector"):
     gold = pd.read_csv("eval/gold.csv", dtype=str).fillna("")
     rows = []
     for r in gold.itertuples():
-        res = answer(r.question, ticker=r.ticker or None, k=k, collection=collection, mode=mode)
+        res = ask(r.question, ticker=r.ticker or None) if mode == "agent" else answer(r.question, ticker=r.ticker or None, k=k, collection=collection, mode=mode)
         retrieved = " ".join(norm(h["text"]) for h in res["sources"])
         if r.type == "unanswerable":
             hit = None

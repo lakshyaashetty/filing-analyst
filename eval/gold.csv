@@ -14,5 +14,5 @@ id,ticker,type,question,expected_answer,evidence
 13,IVZ,fact,"How much notice is generally required to terminate Invesco's investment management agreements?","30 or fewer days' notice","generally terminable upon 30 or fewer days"
 14,IBM,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?","1924; it was previously called C-T-R","in 1924, when c-t-r changed its name"
 15,IBM,explain,"What does IBM say its hybrid cloud and AI offerings help clients do?","Support their digital transformations, reimagine critical workflows at scale, and modernize applications to increase agility, drive innovation and create operational efficiencies","reimagine critical workflows, at scale"
-16,IBM,fact,"What was IBM's total revenue in 2024?","About $62.8 billion (to verify with SEC data in Step 5)","NOT_IN_TEXT"
+16,IBM,fact,"What was IBM's total revenue in 2024?","$62.753 billion (SEC XBRL data, Revenues, CY2024)","NOT_IN_TEXT"
 17,GS,unanswerable,"What is the Goldman Sachs CEO's favorite restaurant?","Should refuse",""

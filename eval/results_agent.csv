@@ -1,0 +1,54 @@
+id,type,question,retrieval_hit,grade,answer
+1,fact,How many employees did Wayfair have at the end of 2025?,True,CORRECT,"Wayfair had approximately 12,800 employees as of December 31, 2025, of whom approximately 11,800 were full-time equivalents [S8]. This comes from the FY2025 10-K (filed 2026-02-19)."
+2,compare,How did Wayfair's employee count change from 2024 to 2025?,True,CORRECT,"Wayfair's headcount fell in 2025.
+
+- **Total employees:** about 13,500 at December 31, 2024, down to about 12,800 at December 31, 2025. That is roughly 700 fewer, or about a 5.2% decline [S2][S5].
+- **Full-time equivalents:** about 12,100 in 2024, down to about 11,800 in 2025. That is roughly 300 fewer, or about a 2.5% decline [S2][S5].
+
+The 2024 figure includes the roughly 730 employees affected by the Germany Restructuring announced in January 2025 [S2][S4]."
+3,unanswerable,What is Macy's plan for opening stores on Mars?,,CORRECT,"The filings provided don't answer this. Nothing in Macy's 10-K filings mentions Mars or any off-Earth store plans.
+
+What the filings do describe is Macy's ""Bold New Chapter"" strategy, which focuses on Earth-based operations: reimagining 125 Macy's stores, opening smaller off-mall formats, and closing underproductive locations [S1][S2][S3]. Macy's operated 665 stores, websites and apps as of the 2026 10-K [S4]."
+4,fact,How many employees did Alphabet have at the end of 2025?,True,CORRECT,"Alphabet had 190,820 employees as of December 31, 2025 [S1]."
+5,fact,How many employees did Alphabet have at the end of 2024?,True,CORRECT,"Alphabet had 183,323 employees as of December 31, 2024 [S5]. The company's 10-K filed in February 2026 reports 190,820 employees as of December 31, 2025 [S1], which is a different year-end."
+6,compare,How did Alphabet's employee count change from 2024 to 2025?,False,CORRECT,"Alphabet's headcount rose from 183,323 employees at December 31, 2024 to 190,820 at December 31, 2025, an increase of 7,497 employees, or about 4.1% [S3][S2]."
+7,fact,How many new stores did Macy's open in 2025?,False,CORRECT,"Macy's opened **12 new stores** in fiscal 2025 (the 52 weeks ended January 31, 2026). Store count went from 680 to 665 over the year, after 27 closures or relocations. [S4]"
+8,compare,How did Macy's capital expenditures change from 2024 to 2025?,True,CORRECT,"Macy's capital expenditures fell in 2025. The 10-K reports $740 million for 2025, down from $882 million in 2024, a decrease of $142 million (about 16%) [S1][S5].
+
+The mainly driven-by categories were the same both years: digital and technology investments and omni-channel capabilities [S1][S5]. Macy's guided to about $800 million of capex for 2026 [S1].
+
+The XBRL data shows different figures: $518 million for 2024 and $373 million for 2025 [SEC data]. That tag likely captures only part of total capex, so I used the MD&A figures, but the gap is worth checking against the cash flow statement."
+9,fact,In how many U.S. states does Macy's have stores?,True,CORRECT,"Macy's has stores in 43 states, plus the District of Columbia, Puerto Rico and Guam, according to its most recent filing that states this figure (the 10-K for fiscal year ended February 1, 2025) [S1][S4].
+
+The later 10-K (filed March 2026, covering the year ended January 31, 2026) reports 665 stores but, in the passages I retrieved, does not restate the state count. So 43 is the latest figure I could confirm, and it may have changed since."
+10,explain,How does BlackRock say its use of AI affects its operational risk?,True,CORRECT,"BlackRock says its use of AI increases operational risk in several ways:
+
+- **Heightened security and operational exposure:** Its use of process automation and AI, along with remote access and cloud technologies, ""heightens these and other operational risks,"" because aspects of their security ""may be complex, unpredictable or beyond BlackRock's control"" [S2].
+- **Cyber threats:** Generative AI, including use by malicious actors, heightens cyber risks to its systems and data [S1].
+- **Errors and inaccurate output:** AI ""may be found to be insufficient, biased or harmful, or lead to adverse business decisions or operating errors,"" and generative AI ""may create content that appears correct but is factually inaccurate or flawed"" [S3].
+- **Added controls and costs:** Using AI ""require[s] additional investment in operational controls and procedures,"" plus safeguards for data leakage, fraud prevention and regulatory compliance [S3].
+- **Consequences of failure:** Failing to integrate AI effectively or manage its related risks could lead to ""operational failures, regulatory fines, sanctions and client dissatisfaction and attrition,"" which may reduce AUM, revenue and earnings [S4][S5]."
+11,explain,What 'mega forces' does BlackRock say are transforming economies in its 2026 outlook?,True,CORRECT,"BlackRock's 2026 outlook (in its 10-K filed 2026-02-25) names three mega forces: **artificial intelligence (AI), financial technology innovation, and an ongoing evolution in debt financing**. It says these are transforming economies and their long-term growth trajectories, with capital markets playing a key role [S8].
+
+For comparison, the prior year's outlook (10-K filed 2025-02-25) named only two: AI and an ongoing evolution in debt financing [S2, S7]. Financial technology innovation is the addition in the 2026 version."
+12,explain,What drives Invesco's revenues?,True,CORRECT,"Invesco's revenue is driven mainly by assets under management (AUM). Its revenue comes from:
+
+- **Investment management fees:** the largest component, earned as a percentage of client AUM. Fees are higher for actively managed equity, balanced, real estate and alternative products, and lower for fixed income, money market, stable value and ETFs [S4][S6]. In 2025 these fees were $4,615.3 million, up from $4,342.3 million in 2024 [S8].
+- **Service and distribution fees:** also generally based on a percentage of AUM. Distribution fees include 12b-1 fees on certain mutual funds [S6].
+- **Performance fees:** earned when defined performance hurdles are met, including carried interests [S6].
+
+AUM and fee mix are the key levers. Management says revenue is ""directly influenced by the level and composition of our AUM,"" so market levels, net inflows or outflows, and the mix of products and geographies all matter [S8]. Average AUM rose to $2,000.1 billion in 2025 from $1,712.2 billion in 2024, and net revenues rose to $4,658.5 million from $4,400.5 million [S8]. However, net revenue yield excluding performance fees fell to 23.0 bps from 25.4 bps, as clients shifted toward lower-yield products [S8][S10]. Growth in AUM therefore did not fully translate into revenue growth per dollar managed."
+13,fact,How much notice is generally required to terminate Invesco's investment management agreements?,True,CORRECT,"Invesco's 10-K filings say its investment management agreements are generally terminable upon 30 or fewer days' notice. The 2025 and 2026 10-K risk factors both state this [S1][S3], and the 2026 Business section repeats it [S2].
+
+The filings also note that U.S. registered fund agreements may be terminated with notice or upon an ""assignment,"" and must be renewed and approved annually by the fund's disinterested board members as required by law. Some other funds' boards may terminate on written notice for any reason [S1][S3]. Open-end fund and unit trust investors may generally withdraw at any time without prior notice [S1][S3]."
+14,fact,"In what year did IBM adopt the name International Business Machines, and what was the company called before?",True,CORRECT,"IBM adopted the name International Business Machines Corporation in 1924. Before that, the company was called the Computing-Tabulating-Recording Co. (C-T-R), which was incorporated in New York on June 16, 1911 as a consolidation of the Computing Scale Co. of America, the Tabulating Machine Co., and The International Time Recording Co. of New York. [S2][S1]"
+15,explain,What does IBM say its hybrid cloud and AI offerings help clients do?,True,CORRECT,"IBM says its hybrid cloud platform and AI technology help clients:
+
+- **Create sustained value** by leveraging hybrid cloud and AI [S1][S2]
+- **Support digital transformations** [S1][S2]
+- **Reimagine critical workflows at scale** [S1][S2]
+- **Modernize applications** to increase agility, drive innovation, and create operational efficiencies [S1][S2]
+
+IBM also says its hybrid cloud and AI platforms let clients realize digital and AI transformations across the applications, data, and environments in which they operate [S4][S5]."
+16,fact,What was IBM's total revenue in 2024?,False,CORRECT,"IBM's total revenue for 2024 was $62.753 billion [SEC data: Revenues, CY2024]."
+17,unanswerable,What is the Goldman Sachs CEO's favorite restaurant?,,CORRECT,"The filings provided don't answer this. The Goldman Sachs 10-K filings I searched cover the CEO's role and background (David Solomon has been CEO since October 2018 and Chairman since January 2019 [S2]), but they say nothing about his favorite restaurant or any personal preferences."
